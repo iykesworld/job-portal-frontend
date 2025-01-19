@@ -1,0 +1,123 @@
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--job-GR);
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    z-index: 100;
+}
+.header{
+    background-color: var(--job-WH);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.hamburger-menu{
+    display: none;
+}
+.close-link{
+    display: none;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-list li{
+    list-style: none;
+}
+.list-link-main::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--job-BL);
+}
+.list-link-main:hover::before{
+    width: 100%;
+    transition: 0.3s;
+}
+.list-link-main{
+    color: var(--job-WH);
+    position: relative;
+}
+.list-link-scroll{
+    color: var(--job-BL);
+}
+.list-link-signin{
+    padding: 10px;
+    background-color: var(--job-PR);
+    color: var(--job-WH);
+}
+.list-link-signin:hover{
+    background-color: transparent;
+    border: 1px solid var(--job-PR);
+    color: var(--job-BL);
+    transition: 0.3s;
+}
+.logo-link img{
+    width: 150px;
+    height: 50px;
+}
+@media (max-width:1024px) {
+    header{
+        padding: 10px 40px;
+    }
+}
+@media (max-width:440px) {
+    header{
+        padding: 10px 40px;
+    }
+    nav{
+        position: relative;
+    }
+    .nav-list{
+        position: fixed;
+        right: -500px;
+        top: 0;
+        flex-direction: column;
+        gap: 40px;
+        width: 80%;
+        height: 100%;
+        background-color: var(--job-PR);
+        padding-top: 40px;
+    }
+    .nav-list-active{
+        right: 0;
+    }
+    .nav-list li{
+        font-size: 30px;
+    }
+    .close-link{
+        padding: 5px;
+        background-color: var(--job-GR);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        display: inherit;
+    }
+    .close-link i{
+        color: var(--job-WH);
+    }
+    .hamburger-menu{
+        padding: 5px;
+        background-color: var(--job-GR);
+        display: inherit;
+    }
+    .hamburger-menu i{
+        color: var(--job-WH);
+    }
+}

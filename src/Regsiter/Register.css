@@ -1,0 +1,56 @@
+.register{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid var(--job-BL);
+    margin: 20px auto; 
+}
+.register-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.register-logo h2{
+    text-align: center;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+}
+.register-form input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.register-checkboxes{
+    display: flex;
+}
+.register-checkboxes input{
+    width: 20px;
+}
+.register-checkboxes label{
+    font-size: 12px;
+    font-weight: 100;
+}
+.register-btns{
+    background-color: var(--job-PR);
+    padding: 10px;
+    color: var(--job-WH);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.register-btns:hover{
+    background-color: var(--job-SC);
+}
+.register-btns-mssg{
+    text-align: center;
+    font-size: 14px;
+}
+.register-btns-link{
+    color: var(--job-PR);
+}

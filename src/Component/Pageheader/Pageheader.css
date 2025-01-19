@@ -1,0 +1,16 @@
+/* job banner */
+.job-banner{
+    background-image: url('../../assets/banner2.svg');
+    background-size: cover;
+    width: 100%;
+    height: 529px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.job-banner h2{
+    text-align: center;
+    color: var(--job-WH);
+}

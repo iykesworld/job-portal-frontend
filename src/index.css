@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --job-WH: #FFFFFF;
+  --job-BL: #000000;
+  --job-PR: #0F5DA7;
+  --job-SC: #D09423;
+  --job-GR: #71787B;
+}
+h1{
+  font-family: "Work Sans", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+Link{
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  color: var(--job-BL);
+  font-family: "Merriweather", serif;
+}

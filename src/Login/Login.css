@@ -1,0 +1,71 @@
+.login{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid var(--job-BL);
+    margin: 20px auto; 
+}
+.login-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.login-top h2{
+    text-align: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.checkboxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.check input{
+    width: 20px;
+}
+.check label{
+    font-size: 12px;
+    font-weight: 100;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radio input{
+    width: 20px;
+}
+.radio label{
+    font-size: 12px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+.login-btns{
+    background-color: var(--job-PR);
+    padding: 10px;
+    color: var(--job-WH);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.login-btns:hover{
+    background-color: var(--job-SC);
+}
+.below-btns-message{
+    text-align: center;
+    font-size: 14px;
+}
+.below-btns-link{
+    color: var(--job-PR);
+}
