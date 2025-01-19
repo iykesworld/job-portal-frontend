@@ -9,29 +9,29 @@ import Register from "../Regsiter/Register";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
     children: [
-        {
-            path: "/",
-            element: <Home />
-        },
-        {
-            path: "/job",
-            element: <Job />
-        },
-        {
-            path: "/job/:id",
-            element: <JobDetails />
-        },
-        {
-          path: "/login",
-          element: <Login />
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/job",
+        element: <Job />,
+      },
+      {
+        path: "/job/:id",
+        element: <JobDetails />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
       {
         path: "/register",
-        element: <Register />
-    },
-    ]
+        element: <Register />,
+      },
+    ],
   },
 ]);
 export default router;
