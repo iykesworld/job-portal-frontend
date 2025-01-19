@@ -16,10 +16,6 @@ h1{
 a{
   text-decoration: none;
 }
-Link{
-  text-decoration: none;
-}
-
 body{
   height: 100vh;
   color: var(--job-BL);
