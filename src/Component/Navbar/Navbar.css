@@ -76,7 +76,7 @@ nav{
 }
 @media (max-width:440px) {
     header{
-        padding: 10px 40px;
+        padding: 10px 20px;
     }
     nav{
         position: relative;
@@ -119,5 +119,6 @@ nav{
     }
     .hamburger-menu i{
         color: var(--job-WH);
+        font-size:40px;
     }
 }

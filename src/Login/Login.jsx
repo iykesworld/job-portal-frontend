@@ -19,14 +19,14 @@ const Login = () => {
             </div>
         </div>
         <form className='login-form'>
-            <label htmlFor="email">Email</label>
-            <input type="email" name='email' placeholder='Your Email' />
-            <label htmlFor="password">Password</label>
-            <input type="password" name='password' placeholder='Password' />
+            <label>Email</label>
+            <input placeholder='Your Email' />
+            <label>Password</label>
+            <input placeholder='Password' />
             <div className="checkboxes">
                 <div className="check">
                 <input type="checkbox" name='remember' />
-                <label htmlFor="remember">Remember me</label>
+                <label>Remember me</label>
                 </div>
                 <div className="radio">
                     <input type="radio" name='forgotten' />

@@ -19,12 +19,19 @@
 .login-form{
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+.login-form label{
+    font-size: 20px;
+    font-weight: 100;
 }
 .login-form input{
     width: 100%;
     padding: 10px;
     outline: none;
+    font-size: 20px;
     margin-bottom: 10px;
+    border: 1px solid var(--job-BL);
 }
 .checkboxes{
     width: 100%;
@@ -35,7 +42,7 @@
     width: 20px;
 }
 .check label{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 100;
 }
 .radio{
@@ -47,7 +54,7 @@
     width: 20px;
 }
 .radio label{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 100;
     white-space: nowrap;
 }
@@ -64,8 +71,13 @@
 }
 .below-btns-message{
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 .below-btns-link{
     color: var(--job-PR);
+}
+@media (max-width:391px) {
+    .login{
+        width: 100%;
+    }
 }

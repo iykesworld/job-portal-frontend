@@ -62,8 +62,8 @@ const JobsCard = () => {
     <div className='jobscard-main'>
         <div className="jobscard-searchcontainer">
             <div className="jobscard-selection-wrapper">
-                <div className='jobscard-filter-icon'><i className="ri-filter-line"></i></div>
                 <div className="jobscard-types">
+                <div className='jobscard-filter-icon'><i className="ri-filter-line"></i></div>
                     <label htmlFor="">Types</label>
                     <select value={filter} onChange={handleFilterChange}>
                         <option value="Default">All Jobs</option>
@@ -82,7 +82,7 @@ const JobsCard = () => {
                 </div>
             </div>
             <form className='form-search'>
-                <input type="text" placeholder='Type Job Title' value={search} onChange={handleSearchChange} />
+                <input type="text" placeholder='Search: Type Job Title' value={search} onChange={handleSearchChange} />
             </form>
         </div>
     <div className='jobscard'>

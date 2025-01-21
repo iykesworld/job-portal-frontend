@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <header className={header? "header" : ""}>
         <nav>
-        <Link to="/home" className='logo-link'>
+        <Link to="/" className='logo-link'>
         <img src={logo} alt="logo" />
         </Link>
             <ul ref={menuRef} className="nav-list">

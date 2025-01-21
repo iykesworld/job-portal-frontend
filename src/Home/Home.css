@@ -344,3 +344,8 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+@media (max-width:391px) {
+    .hero{
+        padding-top: 100px;
+    }
+}
